@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HistoryContent" xml:space="preserve">
+    <value>The reason for notes is so you can look back and see what and how.  The better the note the better you'll you history will be
+                                    &lt;br /&gt;
+                                    Digi note allows you to go back and look at all you previous  notes and see what you've done, split into each category and how long it took</value>
+  </data>
+  <data name="HistoryTitle" xml:space="preserve">
+    <value>The history</value>
+  </data>
+  <data name="NotesContent" xml:space="preserve">
+    <value>This allows you take your note in ease.  Each note can be split into categories, so you can keep track easily.
+                                &lt;ul style="text-align:left; font-size:12px;  list-style-type: none;"&gt;
+                                    &lt;li&gt; &lt;b&gt;Categories and Sub categories&lt;/b&gt;&lt;/li&gt;
+                                    Task through the day may vary and keeping detail notes may be a difficult.  But by spliting them into categories and sub categories it makes it easier.  
+                                    &lt;br /&gt;The better you split your notes in categories, the easy it is to when you need to go back and look over them.
+                                    &lt;br /&gt;
+                                    &lt;li&gt;&lt;b&gt;Time managment&lt;/b&gt;&lt;/li&gt;
+                                    Each note record, records the time spent,  So if you keep the Digi note running, while your doing your task, you would get an idea on how long a task took.
+                                    
+
+                                &lt;/ul&gt;</value>
+  </data>
+  <data name="NoteTitle" xml:space="preserve">
+    <value>Taking and store notes</value>
+  </data>
+  <data name="PageDescriptionBottom" xml:space="preserve">
+    <value>This is a Click once application.  Once installed, if there is an internet conenction it will check for an update.
+                If found it will ask if you want to update or not.  Once you accept it will automatically update you application.</value>
+  </data>
+  <data name="PageDescriptionTop" xml:space="preserve">
+    <value>Digi notes is a windows desktop application, which is a complet note and task managment solution roled into one.</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>The Application</value>
+  </data>
+  <data name="TaskContent" xml:space="preserve">
+    <value>Your day to day To-Do list may grow and grow for a project or just little small task and it may be a nightmare to keep track.
+                                    &lt;br /&gt;
+                                    Digi notes has a Agile To-Do list function built in and it could make your To-Do list more workable.
+                                    &lt;ul style="text-align:left; font-size:12px; ;  list-style-type: none;"&gt;
+                                        &lt;li&gt;&lt;b&gt;Categorized To-Do list (Planned, Started, Testing and completed)&lt;/b&gt;&lt;/li&gt;
+
+                                        You can set up a you To-Do list in small easy to use categories.  A category could be a project or small task.
+                                        &lt;br /&gt;
+
+                                        &lt;li&gt;&lt;b&gt;Story task items&lt;/b&gt;&lt;/li&gt;
+                                        Each task item within a list can contain as much or as little information as required.  It could be a story.
+
+                                        &lt;li&gt;&lt;b&gt;Planned time set and target&lt;/b&gt;&lt;/li&gt;
+                                        The To-Do list category can be given a end of project time and this would give you how many days you got left or gone over.
+                                        &lt;br /&gt;
+                                        As well each item within a list can get a Planned Start and finish date.  Each item within a list will be order in order of the first to start.
+                                        &lt;li&gt;&lt;b&gt;Record true started and completion of each task&lt;/b&gt;&lt;/li&gt;
+                                        The To-Do list has a Story, Started, Ready for testing and Completed section.  When you move an item from story to start.  Digi notes will mark that item as started and will record the date.
+                                        &lt;br /&gt;
+                                        Once you've moved the item to the completed list, it will mark the item as completed and store the date of completion.
+  &lt;/ul&gt;</value>
+  </data>
+  <data name="TaskTitle" xml:space="preserve">
+    <value>Agile task list</value>
+  </data>
+</root>

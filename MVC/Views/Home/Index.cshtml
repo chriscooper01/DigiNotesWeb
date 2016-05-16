@@ -1,0 +1,15 @@
+﻿@model MVC.ViewModels.HomeViewModel
+
+@{
+    ViewBag.Title = "Digi-Notes - Home";
+}
+
+
+@{ Html.RenderPartial("_MenuTop");}
+@{Html.RenderPartial("IndexHeader");}
+@{Html.RenderPartial("IndexAbout");}
+@{Html.RenderPartial("IndexDownload");}
+@{Html.RenderPartial("IndexContact");}
+
+<div style="width:100%; text-align:right">@Model.TotalSystem</div>
+
